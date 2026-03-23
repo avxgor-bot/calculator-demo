@@ -6,8 +6,4 @@ merge_rules:
     required_checks:
       - build
   merge_mode:
-    type: "parallel"
-    parallel_mode:
-      max_parallel_builds: 10
-      override_required_checks:
-        - build
+    type: "default"
