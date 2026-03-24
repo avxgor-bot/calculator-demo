@@ -11,3 +11,4 @@ merge_rules:
       max_parallel_builds: 10
       override_required_checks:
         - build
+      affected_targets: true
